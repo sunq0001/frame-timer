@@ -1,0 +1,35 @@
+{
+  "name": "frame-timer",
+  "version": "1.0.0",
+  "description": "frame timer",
+  "main": "dist/frame-timer.js",
+  "typings": "dist/frame-timer",
+  "dependencies": {
+    "babel-loader": "^8.0.0-beta.0",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/plugin-transform-runtime": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "babel-plugin-add-module-exports": "^1.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunq0001/frame-timer.git"
+  },
+  "homepage": "https://github.com/sunq0001/frame-timer",
+  "author": "SunQuan",
+  "license": "ISC",
+  "keywords": [
+    "timer",
+    "frame",
+    "animation"
+  ]
+}
